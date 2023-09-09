@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Itim&family=Noto+Serif&family=Roboto+Condensed:wght@300&display=swap');
+
+:root{
+    --head-font: 'Bree Serif', serif;
+    --paragraph-font : 'Itim', cursive;
+    --ancor-font : 'Noto Serif', serif;
+    --footer-font : 'Roboto Condensed', sans-serif;
+   
+    --br-bg-color:linear-gradient(74deg, rgba(192,0,255,1) 0%, rgba(121,9,118,1) 54%, rgba(36,0,32,1) 100%);
+    --icon-color : #79096f;
+    --btn-color : linear-gradient(74deg, rgb(36, 0, 48) 0%, rgba(121,9,118,1) 54%, rgb(192, 1, 170) 100%);
+
+    /* font weight  */
+    --fw-footer : 500;
+
+}
+
+
+
+
+#FeeArea .heading{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-size: -webkit-xxx-large;
+    font-weight: 700;
+    position: relative;
+}
+
+#FeeArea .heading h2{
+    margin-bottom: 2rem;
+    font-family: var(--head-font);
+}
+#FeeArea .heading::before{
+    content: '';
+    position: absolute;
+    top: -15px;
+    background: var(--br-bg-color) ;
+    height: 4px;
+    width: 120px;
+}
+#FeeArea .card{
+    
+    border: 2px solid #03718d;
+}
+#FeeArea .card .card-head{
+    padding: 2rem auto;
+    background-color: #03718d;
+}
+.card .card-head span{
+    font-size: 27px;
+    font-weight: 800;
+    font-family: var(--head-font);
+    color: #fff;
+}
+.card .card-head small{
+    color: #fff;
+    font-weight: bold;
+    font-size: 19px;
+    font-family: var(--paragraph-font);
+}
+.card .card-body{
+    padding: 2rem auto;
+}
+.card .card-body ul li{
+    list-style: none;
+    padding: 4px 8px;
+    border-bottom: 1px solid rgb(191, 189, 189);
+}
+.card .card-body ul li i{
+    border-right: 1px solid rgb(159, 159, 159);
+    padding: 0 12px 0 0px;
+    font-size: 20px;
+    color: #79096f;
+    width: 30px;
+}
+.card .card-body ul li strong{
+    padding-left: 9px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card .card-body ul li span{
+    color: #4a4a4ab3;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 500;
+
+}
+.card .card-body ul li:nth-child(1){
+    background-color: rgb(236, 233, 233);
+}
+.card .card-body ul li:nth-child(3){
+    background-color: rgb(236, 233, 233);
+}
+.card .card-body ul li:nth-child(5){
+    background-color: rgb(236, 233, 233);
+}
+.card .card-body ul li:nth-child(7){
+    background-color: rgb(236, 233, 233);
+}
+.card .card-body ul li:nth-child(9){
+    background-color: rgb(236, 233, 233);
+}
+
+.card .card-footer{
+    background-color: #03718d;   
+}
+.card .card-footer button{
+    width: 160px;
+    background-color: #fff;
+    font-size: 23px ;
+    font-weight: bold;
+    font-family: var(--head-font);
+    transition: all 0.3s ease;
+    border: none;
+    outline: none;
+    border-radius: 1em;
+}
+.card .card-footer button:hover{
+    background-color: #825708;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

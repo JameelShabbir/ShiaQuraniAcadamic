@@ -1,0 +1,110 @@
+/* ================== */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Itim&family=Noto+Serif&family=Roboto+Condensed:wght@300&display=swap');
+
+:root{
+    --head-font: 'Bree Serif', serif;
+    --paragraph-font : 'Itim', cursive;
+    --ancor-font : 'Noto Serif', serif;
+    --footer-font : 'Roboto Condensed', sans-serif;
+
+    --br-bg-color:linear-gradient(74deg, rgba(192,0,255,1) 0%, rgba(121,9,118,1) 54%, rgba(36,0,32,1) 100%);
+    --icon-color : #79096f;
+    --btn-color : linear-gradient(74deg, rgb(36, 0, 48) 0%, rgba(121,9,118,1) 54%, rgb(192, 1, 170) 100%);
+ 
+    /* font weight  */
+    --fw-footer : 500;
+
+}
+
+
+
+#about .heading{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-size: -webkit-xxx-large;
+    font-weight: 700;
+    position: relative;
+}
+#about .heading h2{
+    font-family: var(--head-font) ;
+}
+#about .heading::before{
+    content: '';
+    position: absolute;
+    top: -15px;
+    background: var(--br-bg-color);
+    height: 4px;
+    width: 120px;
+}
+
+#about .baner{
+    position: relative; 
+
+}
+#about .baner img{
+    width: 100%;
+}
+#about .baner .title {
+    position: absolute;
+    bottom: 7%;
+    left: -8%;
+    background: var(--br-bg-color) ;
+    color: #fff;
+    padding: 2em 2em 2em 6em;
+}
+#about .baner .title h3{
+    font-size: 39px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-family: var(--head-font);
+}
+#about .baner .title span::after{
+    content: " ";
+    width: 35px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    right: 44px;
+    top: 18px;
+}
+.content-side h2{
+    font-size: 34px;
+    font-family: cursive;
+    font-weight: 600;
+    color: #4a4a4a;
+}
+.content-side p{
+    font-size: 20px;
+    font-family: var(--paragraph-font);
+    text-align: justify;
+}
+.content-side p a{
+    text-decoration: none;
+    font-weight: 400;  
+    font-size: 18px;
+    color: #111;
+    font-family: var(--ancor-font);
+    transition: all 0.2s ;
+}
+.content-side p a:hover{
+    color: var(--br-bg-color);
+}
+
+/*=========================== media query ==================== */
+@media (max-width: 768px){
+    #about .baner .title {
+        padding: 1.5rem 3rem;
+    }
+    #about .baner .title h3{
+        font-size: 23px;
+    }
+    #about .baner .title span::after{
+        right: 79px;
+        top: 9px;
+    }
+}
+
+

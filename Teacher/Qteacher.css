@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Itim&family=Noto+Serif&family=Roboto+Condensed:wght@300&display=swap');
+
+:root{
+    --head-font: 'Bree Serif', serif;
+    --paragraph-font : 'Itim', cursive;
+    --ancor-font : 'Noto Serif', serif;
+    --footer-font : 'Roboto Condensed', sans-serif;
+   
+    --br-bg-color:linear-gradient(74deg, rgba(192,0,255,1) 0%, rgba(121,9,118,1) 54%, rgba(36,0,32,1) 100%);
+    --icon-color : #79096f;
+    --btn-color : linear-gradient(74deg, rgb(36, 0, 48) 0%, rgba(121,9,118,1) 54%, rgb(192, 1, 170) 100%);
+
+
+    /* font weight  */
+    --fw-footer : 500;
+
+}
+
+
+
+
+#OQuranTeacher .heading{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-size: -webkit-xxx-large;
+    font-weight: 700;
+    position: relative;
+}
+
+#OQuranTeacher .heading h2{
+    font-family: var(--head-font);
+    margin-bottom: 2rem;
+}
+#OQuranTeacher .heading::before{
+    content: '';
+    position: absolute;
+    top: -15px;
+    background: var(--br-bg-color);
+    height: 4px;
+    width: 120px;
+}
+#OQuranTeacher .content h2{
+    font-size: 28px;
+    font-weight: 600;
+    font-family: var(--head-font);
+    color: #2f3030;
+    text-transform: capitalize;
+}
+#OQuranTeacher .content p{
+    font-size: 19px;
+    font-weight: 400;
+    font-family: auto;
+    color: #111111de;
+    text-align: justify;
+    font-family: var(--paragraph-font) ;
+}
+#OQuranTeacher .content p a{
+    text-decoration: none;
+    transition: all 0.3s;
+    color: rgb(19, 182, 241);
+}
+#OQuranTeacher .content p a:hover{
+    color: #d523c6;
+}
+#OQuranTeacher p strong{
+    color: #79096f;
+}
+#OQuranTeacher .title h2{
+    font-size: 25px;
+    font-family: var(--head-font);
+    text-transform: uppercase;
+    border-left: 4px solid #79096f;
+    padding: 0 0 8px 1rem;
+    margin-bottom: 2rem;
+}
+
+#OQuranTeacher form input{
+    border: none;
+    border: 1px solid #111;
+    outline: none;
+    margin-bottom: 2rem;
+}
+#OQuranTeacher form select{
+    border: none;
+    border: 1px solid #111;
+    outline: none;
+}
+#OQuranTeacher form button{
+    width: 200px;
+    padding: 9px 2em;
+    background-color: rgb(3, 2, 2);
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#OQuranTeacher form button:hover{
+    background-color: #121313;
+}
+#OQuranTeacher .wedget ul li:nth-child(1){
+    background-color: #eceaea;
+}
+#OQuranTeacher .wedget ul li:nth-child(3){
+    background-color: #e0dddd;
+}
+#OQuranTeacher .wedget ul li:nth-child(5){
+    background-color: #e9e7e7;
+}
+#OQuranTeacher .wedget ul li{
+    padding: 8px;
+}
+#OQuranTeacher .wedget ul li a{
+    color: #121313;
+    text-decoration: none;
+    font-size: 15px ;
+    font-family: var(--ancor-font);
+    margin-left: 1rem;
+    transition: all 0.3s ease;
+}
+#OQuranTeacher .wedget ul li a:hover{
+    color: #d523c6;
+}
+
+#OQuranTeacher .wedget ul li i{
+    color: #79096f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

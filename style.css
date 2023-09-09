@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Itim&family=Noto+Serif&family=Roboto+Condensed:wght@300&display=swap');
+
+:root {
+    --head-font: 'Bree Serif', serif;
+    --paragraph-font: 'Itim', cursive;
+    --ancor-font: 'Noto Serif', serif;
+    --footer-font: 'Roboto Condensed', sans-serif;
+
+    --br-bg-color: linear-gradient(74deg, rgba(192, 0, 255, 1) 0%, rgba(121, 9, 118, 1) 54%, rgba(36, 0, 32, 1) 100%);
+    --icon-color: #297909;
+    --btn-color: linear-gradient(74deg, rgb(95, 4, 125) 0%, rgb(28, 186, 0) 54%, rgb(3, 121, 27) 100%);
+
+    /* font weight  */
+    --fw-footer: 500;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+/* main */
+#main {
+    height: 400px !important;
+
+}
+
+.carousel-inner img {
+    height: 600px !important;
+
+}
+
+.carousel-inner .carousel-caption .innr-text {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.carousel-caption .innr-text h2 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 1em;
+    font-family: var(--head-font);
+}
+
+.carousel-caption .innr-text h3 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    font-family: var(--head-font);
+}
+
+.carousel-caption {
+    height: 60%;
+}
+
+.carousel-caption .container {
+    border-radius: 5px;
+    padding-bottom: 0.5em;
+}
+
+.carousel-caption p a {
+    width: 100px;
+    padding: 8px 8px;
+    transition: all 0.4s ease-in-out;
+    /* background: var(--btn-color); */
+    background: linear-gradient(230deg, transparent, #7b0071);
+    color: #fff;
+    margin-right: 1em;
+    text-decoration: none;
+    border: 1px solid #79096f;
+    font-weight: bold;
+    font-size: 19px;
+    font-family: var(--ancor-font);
+
+}
+
+.carousel-caption p a:hover {
+    background: var(--br-bg-color);
+}
+
+
+/* ======================about -=================== */
+
+#about .heading {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-size: -webkit-xxx-large;
+    font-weight: 700;
+    font-family: var(--head-font);
+    position: relative;
+}
+
+h2 {
+    font-family: var(--head-font);
+}
+
+#about .heading::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    background: var(--br-bg-color);
+    height: 4px;
+    width: 120px;
+}
+
+#about .baner {
+    position: relative;
+
+}
+
+#about .baner img {
+    width: 100%;
+}
+
+#about .baner .title {
+    position: absolute;
+    bottom: 7%;
+    left: -8%;
+    background: var(--br-bg-color);
+    color: #fff;
+    padding: 2em 2em 2em 6em;
+}
+
+#about .baner .title h3 {
+    font-size: 39px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+#about .baner .title span::after {
+    content: " ";
+    width: 35px;
+    height: 2px;
+    background: var(--br-bg-color);
+    position: absolute;
+    right: 44px;
+    top: 18px;
+}
+
+
+/* =======================sectoin m3================= */
+
+.section-m3 {
+    margin: 1em;
+
+}
+
+.section-m3 .details {
+    position: relative;
+}
+
+.section-m3 .details a {
+    text-decoration: none;
+    background: var(--br-bg-color);
+    padding: 2px 8px;
+    margin: 0 7px;
+    border-radius: 1em;
+    color: #fff;
+
+}
+
+.section-m3 .details a::before {
+    content: '';
+    position: absolute;
+    background: var(--br-bg-color);
+    width: 120px;
+    height: 2px;
+    display: flex;
+    right: 150px;
+    top: 11px;
+}
+
+.section-m3 .details a::after {
+    content: '';
+    position: absolute;
+    background: var(--br-bg-color);
+    width: 120px;
+    height: 2px;
+    display: flex;
+    left: 150px;
+    top: 11px;
+
+}
+
+/* ==================courses==================== */
+#course {
+    background-color: #f1f1f1;
+    margin-top: 3em;
+
+}
+
+#course .heading {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-size: -webkit-xxx-large;
+    font-weight: 700;
+    font-family: var(--head-font);
+    position: relative;
+}
+
+#course .heading::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    background: var(--br-bg-color);
+    height: 4px;
+    width: 130px;
+}
+
+#course .card-shadow {
+    position: relative;
+}
+
+.img-box {
+    overflow: hidden;
+}
+
+.img-box img {
+    transition: all 1.5 ease;
+}
+
+.card-shadow:hover img {
+    transition: all 1.4s ease;
+    transform: scale(1.5);
+}
+
+#course .card-shadow:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .2) 27%, rgb(0 0 0 / 30%) 90%);
+}
+
+#course .card-overlay {
+    position: absolute;
+    top: 37%;
+    left: 0;
+    padding: 0 1em;
+    transition: 0.4s;
+}
+
+#course .card-shadow:hover .card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 1em;
+}
+
+.card-overlay .card-content {
+    display: grid;
+}
+
+.card-overlay .card-content h3 {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 900;
+}
+
+.card-overlay .card-content .ft {
+    width: 120px;
+    color: #fff;
+    padding: 1px 1em;
+    border: 3px solid #ffd34f;
+    border-radius: 2em;
+    cursor: default;
+    margin-top: 5px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.card-overlay .card-content a {
+    text-decoration: none;
+
+}
+
+.card-overlay .btn span::after {
+    content: '>';
+    position: absolute;
+    right: -26px;
+    font-family: 'Font Awesome 5 Brands';
+}
+
+.card-content a {
+    position: absolute;
+    left: 20px;
+    bottom: -14px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.card-box .contents-info {
+    padding-left: 5px;
+}
+
+.card-box .contents-info i {
+    color: #8c600e;
+    margin-left: 8px;
+}
+
+.card-box .contents-info small {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.card-box .contents-info .property-txt P {
+    text-align: justify;
+    font-size: 17px;
+    font-family: initial;
+}
+
+.card-box .contents-info .more-detail a {
+    margin-right: 0.7em;
+    background: var(--br-bg-color);
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: var(--ancor-font);
+    padding: 2px 4px;
+    transition: all 0.3s;
+}
+
+.card-box .contents-info .more-detail a:hover {
+    background: var(--br-bg-color);
+
+}
+
+/* ==========================================================content area ================= */
+
+#contentarea .text-center h2::before {
+    display: block;
+    position: relative;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    content: "";
+    background: var(--br-bg-color);
+}
+
+#contentarea .content P {
+    text-align: justify;
+    font-family: var(--paragraph-font);
+    font-size: 19px;
+    font-weight: 300;
+}
+
+#contentarea .content P strong {
+    font-weight: bold;
+    font-family: var(--head-font);
+    color: #79096f;
+}
+
+/* ========================= Teachers area -============================ */
+
+
+#teacherarea {
+    background-color: #f1f1f1;
+}
+
+#teacherarea .text-center h2::before {
+    display: block;
+    position: relative;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    content: "";
+    background: var(--br-bg-color);
+}
+
+#teacherarea .card-shadow {
+    position: relative;
+
+}
+
+#teacherarea .card-shadow:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .2) 27%, rgba(0, 0, 0, .65) 90%);
+}
+
+.card-overlay .teacher-card-content {
+    position: absolute;
+}
+
+#teacherarea .card-overlay {
+    position: relative;
+    top: -3em;
+}
+
+#teacherarea .card-box:hover .card-overlay {
+    top: -7em;
+    transition: all 0.4s;
+}
+
+.teacher-card-content {
+    color: rgb(254, 206, 46);
+    font-weight: 700;
+    font-family: var(--paragraph-font);
+    text-shadow: 0 0 2px rgba(79, 79, 79, 0.2);
+}
+
+.t-Card .img-box img {
+    width: 100%;
+}
+
+.more-detail a {
+    text-decoration: none;
+    color: #fff;
+    padding: 2px 9px;
+    background: var(--br-bg-color);
+    font-family: var(--ancor-font);
+    font-weight: 300;
+    transition: all 0.4s ease-in-out;
+}
+
+.more-detail a:hover {
+    background: var(--br-bg-color);
+}
+
+.card-overlay .teacher-card-content h3 a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: var(--ancor-font);
+}
+
+
+
+
+/* ==========================form ============================= */
+
+#form .text-center h2::before {
+    display: block;
+    position: relative;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    content: "";
+    background: var(--br-bg-color);
+}
+
+#contact button {
+    width: 200px;
+    border: none;
+    color: #fff;
+    background-color: #111;
+    transition: all 0.3s ease-in;
+    padding: 8px 2em;
+}
+
+#contact button:hover {
+    background: var(--br-bg-color);
+}
+
+#contact .icon-box i {
+    color: #141619;
+    font-size: 42px;
+    margin-right: 10px;
+    position: relative;
+    top: -15px;
+}
+
+#contact .icon-box h3 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: var(--head-font);
+
+}
+
+#contact .content-box ul li a {
+    color: #111;
+    font-weight: 500;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: var(--ancor-font);
+    transition: all 0.4s;
+}
+
+#contact .content-box ul li a:hover {
+    color: #d6850acf;
+}
+
+#contact .content-box li:nth-child(1) {
+    font-size: 23px;
+    color: #e0d60fd2;
+    font-weight: bold;
+}
+
+#contact .content-box li:nth-child(2) {
+    font-size: 23px;
+    color: #0cc23dd2;
+    font-weight: bold;
+}
+
+#contact .content-box li:nth-child(3) {
+    font-size: 23px;
+    color: #b90cc2d2;
+    font-weight: bold;
+}

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Itim&family=Noto+Serif&family=Roboto+Condensed:wght@300&display=swap');
+
+:root{
+    --head-font: 'Bree Serif', serif;
+    --paragraph-font : 'Itim', cursive;
+    --ancor-font : 'Noto Serif', serif;
+    --footer-font : 'Roboto Condensed', sans-serif;
+
+    --br-bg-color:linear-gradient(74deg, rgba(192,0,255,1) 0%, rgba(121,9,118,1) 54%, rgba(36,0,32,1) 100%);
+    --icon-color : #79096f;
+    --btn-color : linear-gradient(74deg, rgb(36, 0, 48) 0%, rgba(121,9,118,1) 54%, rgb(192, 1, 170) 100%);
+
+
+    /* font weight  */
+    --fw-footer : 500;
+
+}
+
+
+#OSyassarnalQuran .heading{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-size: -webkit-xxx-large;
+    font-weight: 700;
+    position: relative;
+}
+
+#OSyassarnalQuran .heading h2{
+    margin-bottom: 2rem;
+    font-family: var(--head-font);
+}
+#OSyassarnalQuran .heading::before{
+    content: '';
+    position: absolute;
+    top: -15px;
+    background: var(--br-bg-color);
+    height: 4px;
+    width: 120px;
+}
+#OSyassarnalQuran .content h2{
+    font-size: 28px;
+    font-weight: 600;
+    font-family: var(--head-font);
+    color: #2f3030;
+    text-transform: capitalize;
+}
+#OSyassarnalQuran .content p{
+    font-size: 19px;
+    font-weight: 400;
+    font-family: var(--paragraph-font);
+    color: #111111de;
+    text-align: justify;
+}
+#OSyassarnalQuran .content p a{
+    text-decoration: none;
+    transition: all 0.3s;
+    color: black;
+    font-family: var(--ancor-font) ; 
+}
+#OSyassarnalQuran .content p a:hover{
+    color: #820859;
+}
+
+#OSyassarnalQuran .title h2{
+    font-size: 27px;
+    font-family: var(--head-font);
+    text-transform: capitalize;
+    border-left: 4px solid rgb(104, 2, 58);
+    padding: 0 0 8px 1rem;
+}
+#OSyassarnalQuran p strong{
+    color: #820859;
+}
+
+#OSyassarnalQuran form input{
+    border: none;
+    border: 1px solid #111;
+    outline: none;
+    margin-bottom: 2rem;
+}
+#OSyassarnalQuran form select{
+    border: none;
+    border: 1px solid #111;
+    outline: none;
+}
+#OSyassarnalQuran form button{
+    width: 200px;
+    padding: 9px 2em;
+    background-color: rgb(3, 2, 2);
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+#OSyassarnalQuran form button:hover{
+    background-color: #121313;
+}
+#OSyassarnalQuran .wedget ul li:nth-child(1){
+    background-color: #eceaea;
+}
+#OSyassarnalQuran .wedget ul li:nth-child(3){
+    background-color: #e0dddd;
+}
+#OSyassarnalQuran .wedget ul li:nth-child(5){
+    background-color: #e9e7e7;
+}
+#OSyassarnalQuran .wedget ul li{
+    padding: 8px;
+}
+#OSyassarnalQuran .wedget ul li a{
+    color: #121313;
+    text-decoration: none;
+    font-size: 15px ;
+    font-family: var(--ancor-font);
+    margin-left: 1rem;
+    transition: all 0.3s ease;
+}
+#OSyassarnalQuran .wedget ul li a:hover{
+    color: #ef26de;
+}
+
+#OSyassarnalQuran .wedget ul li i{
+    color: #820859;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

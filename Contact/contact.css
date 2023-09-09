@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Itim&family=Noto+Serif&family=Roboto+Condensed:wght@300&display=swap');
+
+:root{
+    --head-font: 'Bree Serif', serif;
+    --paragraph-font : 'Itim', cursive;
+    --ancor-font : 'Noto Serif', serif;
+    --footer-font : 'Roboto Condensed', sans-serif;
+    --br-bg-color:linear-gradient(74deg, rgba(192,0,255,1) 0%, rgba(121,9,118,1) 54%, rgba(36,0,32,1) 100%);
+    --icon-color : #79096f;
+    --btn-color : linear-gradient(74deg, rgb(36, 0, 48) 0%, rgba(121,9,118,1) 54%, rgb(192, 1, 170) 100%);
+
+    /* font weight  */
+    --fw-footer : 500;
+
+}
+
+
+#form .heading{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-size: -webkit-xxx-large;
+    font-weight: 700;
+    position: relative;
+}
+
+#form .heading h2{
+    margin-bottom: 2rem;
+    font-family: var(--head-font);
+}
+#form .heading::before{
+    content: '';
+    position: absolute;
+    top: -15px;
+    background: linear-gradient(74deg, rgba(192,0,255,1) 0%, rgba(121,9,118,1) 54%, rgba(36,0,32,1) 100%);
+    ;
+    height: 4px;
+    width: 120px;
+}
+
+#form form input{
+    border: none;
+    outline: none;
+    border: 1px solid #111;
+    background-color: rgb(246, 244, 244);
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+#form form textarea{
+    border: none;
+    outline: none;
+    border: 1px solid #111;
+    background-color: rgb(246, 245, 245);
+}
+#form form button{
+    width: 200px;
+    padding: 8px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: var(--head-font);
+    border: none;
+    outline: none;
+    background-color: #111;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+}
+
+#form form button:hover{
+    background: var(--br-bg-color);
+}
+
+#form form{
+    padding: 1em 1rem;
+    border-radius: 5px;
+    box-shadow: 6px 5px 16px rgba(0, 0, 0, 0.6);
+    background: radial-gradient(to left, #323 ,#9ee);
+}
+
+
+
+
+
+
+
+
+
+
+
